@@ -13,7 +13,7 @@ const Router = () => {
   ])
 
   return (
-    <div className="min-h-[100dvh] bg-black w-full flex items-center justify-center">
+    <div className="min-h-[100dvh]">
       <RouterProvider router={router} />
     </div>
   )
